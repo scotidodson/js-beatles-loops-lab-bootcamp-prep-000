@@ -17,9 +17,9 @@ const facts = [
 function johnLennonFacts(facts){
   var i=0;
   var newArray=[];
-  while (facts.length > i)
- do {newArray.push(`${facts[i]}` + "\!\!\!”);
+   do {newArray.push(`${facts[i]}` + "\!\!\!”);
   i++;
-  }
+  }while (facts.length > i)
+
   return newArray;
 }
