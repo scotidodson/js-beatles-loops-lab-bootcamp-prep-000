@@ -32,3 +32,5 @@ function iLoveTheBeatles(n) {
   while(`${n}`<15 && i<`${n}`);
   return loveBeatles;
 }
+
+console.log(iLoveTheBeatles());
