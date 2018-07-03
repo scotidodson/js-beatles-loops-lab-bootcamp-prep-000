@@ -16,11 +16,11 @@ const facts = [
 
 function johnLennonFacts(facts){
   var i=0;
-  var newArray=[];
-  do {newArray.push(`${facts[i]}` + "!!!");
+  var excitedFacts=[];
+  do {excitedFacts.push(`${facts[i]}` + "!!!");
   i++;
   }
-  while (facts.length > newArray.length);
+  while (facts.length > excitedFacts.length);
   return newArray;
 }
 
