@@ -23,3 +23,5 @@ function johnLennonFacts(facts){
   while (facts.length > newArray.length);
   return newArray;
 }
+
+function iLoveTheBeatles()
