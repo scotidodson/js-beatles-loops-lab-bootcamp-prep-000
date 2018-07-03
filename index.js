@@ -21,5 +21,5 @@ function johnLennonFacts(facts){
   while (facts.length > excitedFacts.length) {
     excitedFacts.push(`$facts[i]` + "!!!");
   }
-  return newArray;
+  return excitedFacts;
 }
