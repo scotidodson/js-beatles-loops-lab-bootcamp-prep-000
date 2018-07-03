@@ -15,9 +15,12 @@ const facts = [
 
 
 function johnLennonFacts(facts){
-  do {console.log(facts + "!!!");
+  var i=0;
+  var newArray=[];
+  while (facts.length > i) {
+  newArray.push(`${facts[i]}` + “!!!”);
+  i++;
   }
-  while(facts.length>0);
-  return facts;
+  return newArray;
 }
 
