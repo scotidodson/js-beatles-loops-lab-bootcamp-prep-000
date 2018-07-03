@@ -23,3 +23,21 @@ function johnLennonFacts(facts){
   }
   return excitedFacts;
 }
+
+function iLoveTheBeatles(n) {
+  var i = 0;
+  var loveBeatles = [];
+  do {loveBeatles.push("I love the Beatles!"); i++;
+  }
+  while();
+  return loveBeatles;
+}
+function johnLennonFacts(facts){
+  var i=0;
+  var excitedFacts=[];
+  do {excitedFacts.push(`${facts[i]}` + "!!!");
+  i++;
+  }
+  while (facts.length > excitedFacts.length);
+  return newArray;
+}
