@@ -33,4 +33,4 @@ function iLoveTheBeatles(n) {
   return loveBeatles;
 }
 
-console.log(iLoveTheBeatles());
+console.log(loveBeatles);
