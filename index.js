@@ -20,6 +20,6 @@ function johnLennonFacts(facts){
   do {newArray.push(`${facts[i]} + \!\!\!`);
   i++;
   }
-  while (facts.length > i);
+  while (facts.length > newArray.length);
   return newArray;
 }
